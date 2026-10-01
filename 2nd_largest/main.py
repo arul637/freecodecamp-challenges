@@ -3,8 +3,7 @@ def first_largest(arr):
 
     for number in arr:
         if number > max:
-            max = number 
-    
+            max = number
     return max
 
 
@@ -21,7 +20,6 @@ def second_largest(arr):
             second_largest_number = number 
 
     return second_largest_number 
-
 
 print(second_largest([1, 2, 3, 4]))
 print(second_largest([20, 139, 94, 67, 31]))
