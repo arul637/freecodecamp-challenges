@@ -19,8 +19,7 @@ def array_diff(arr1, arr2):
 
     array = list(set(array))
 
-    return array 
-
+    return array
 
 print(array_diff(["apple", "banana"], ["apple", "banana", "cherry"]))
 print(array_diff(["apple", "banana", "cherry"], ["apple", "banana"]))
